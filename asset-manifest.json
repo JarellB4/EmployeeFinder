@@ -1,0 +1,22 @@
+{
+  "files": {
+    "main.css": "/JarellB4/EmployeeFinder/static/css/main.9d5b29c0.chunk.css",
+    "main.js": "/JarellB4/EmployeeFinder/static/js/main.cc3b8a3e.chunk.js",
+    "main.js.map": "/JarellB4/EmployeeFinder/static/js/main.cc3b8a3e.chunk.js.map",
+    "runtime-main.js": "/JarellB4/EmployeeFinder/static/js/runtime-main.111eab57.js",
+    "runtime-main.js.map": "/JarellB4/EmployeeFinder/static/js/runtime-main.111eab57.js.map",
+    "static/js/2.60041bab.chunk.js": "/JarellB4/EmployeeFinder/static/js/2.60041bab.chunk.js",
+    "static/js/2.60041bab.chunk.js.map": "/JarellB4/EmployeeFinder/static/js/2.60041bab.chunk.js.map",
+    "static/js/3.17b177b2.chunk.js": "/JarellB4/EmployeeFinder/static/js/3.17b177b2.chunk.js",
+    "static/js/3.17b177b2.chunk.js.map": "/JarellB4/EmployeeFinder/static/js/3.17b177b2.chunk.js.map",
+    "index.html": "/JarellB4/EmployeeFinder/index.html",
+    "static/css/main.9d5b29c0.chunk.css.map": "/JarellB4/EmployeeFinder/static/css/main.9d5b29c0.chunk.css.map",
+    "static/js/2.60041bab.chunk.js.LICENSE.txt": "/JarellB4/EmployeeFinder/static/js/2.60041bab.chunk.js.LICENSE.txt"
+  },
+  "entrypoints": [
+    "static/js/runtime-main.111eab57.js",
+    "static/js/2.60041bab.chunk.js",
+    "static/css/main.9d5b29c0.chunk.css",
+    "static/js/main.cc3b8a3e.chunk.js"
+  ]
+}
