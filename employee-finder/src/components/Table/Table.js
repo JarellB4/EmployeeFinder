@@ -1,55 +1,31 @@
 import React from "react";
 
-class Table extends React.Component {
-    state = {
-      employees: [{}],
-      filterEmployees: [{}],
-      order: "ascend",
-    };
 
 
-render () {
+
+function Table ({employees}) {
  return (
  <div> 
  <table>
-  <tr>
-    <th>Company</th>
-    <th>Contact</th>
-    <th>Country</th>
-  </tr>
-  <tr>
-    <td>Alfreds Futterkiste</td>
-    <td>Maria Anders</td>
-    <td>Germany</td>
-  </tr>
-  <tr>
-    <td>Centro comercial Moctezuma</td>
-    <td>Francisco Chang</td>
-    <td>Mexico</td>
-  </tr>
-  <tr>
-    <td>Ernst Handel</td>
-    <td>Roland Mendel</td>
-    <td>Austria</td>
-  </tr>
-  <tr>
-    <td>Island Trading</td>
-    <td>Helen Bennett</td>
-    <td>UK</td>
-  </tr>
-  <tr>
-    <td>Laughing Bacchus Winecellars</td>
-    <td>Yoshi Tannamuri</td>
-    <td>Canada</td>
-  </tr>
-  <tr>
-    <td>Magazzini Alimentari Riuniti</td>
-    <td>Giovanni Rovelli</td>
-    <td>Italy</td>
-  </tr>
-</table>
+            <tbody>
+                {employees[0] !== undefined && employees[0].name !== undefined? 
+                    (employees.map(({ picture, name, phone, email, dob }) => (
+                        <tr>
+                            <th>
+                                <img alt={name.first + " " + name.last} src={picture.thumbnail} />
+                            </th>
+                            <td>Name: {name.first + " " + name.last}</td>
+                            <td>Phone Number: {phone}</td>
+                            <td>Email: {email}</td>
+                            <td>DOB: {dob.date}</td>
+                        </tr>
+                    ))): 
+                    
+                  <> N/A </>  } 
+            </tbody>
+        </table>
 </div>
-              )}};
+              )};
 
 
 

@@ -14,10 +14,9 @@ function Search({handleInputChange}) {
           id="search"
         />
         <br />
-        <button onClick={handleInputChange} className="btn btn-primary">
-          Search
-        </button>
       </div>
     </form>
   );
 }
+
+export default Search
