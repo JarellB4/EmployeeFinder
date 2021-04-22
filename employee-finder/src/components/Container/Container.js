@@ -9,7 +9,7 @@ class Container extends Component {
   };
 
   componentDidMount() {
-    API.searchTerms()
+    API.FindMe()
       .then()((data) => {
         console.log(data);
         return data;
@@ -31,7 +31,13 @@ class Container extends Component {
     });
     console.log(this.state)
   };
-
+ 
+  render () {
+   return (
+        <div> </div>
+        ) 
+  };
+  
 // make another component for search
 // make render function
 }

@@ -14,9 +14,9 @@ function Search({handleInputChange}) {
           id="search"
         />
         <br />
-        {/* <button onClick={handleFormSubmit} className="btn btn-primary">
+        <button onClick={handleInputChange} className="btn btn-primary">
           Search
-        </button> */}
+        </button>
       </div>
     </form>
   );

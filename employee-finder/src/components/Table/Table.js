@@ -1,8 +1,17 @@
-import react from "react";
+import React from "react";
+
+class Table extends React.Component {
+    state = {
+      employees: [{}],
+      filterEmployees: [{}],
+      order: "ascend",
+    };
 
 
-function Table ({employees}) {
-<table>
+render () {
+ return (
+ <div> 
+ <table>
   <tr>
     <th>Company</th>
     <th>Contact</th>
@@ -39,9 +48,9 @@ function Table ({employees}) {
     <td>Italy</td>
   </tr>
 </table>
+</div>
+              )}};
 
 
 
-
-}
 export default Table;
